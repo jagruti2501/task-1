@@ -1,0 +1,124 @@
+/* app.css */
+
+/* Overall layout */
+.App {
+  display: grid;
+  font-family: 'Roboto', sans-serif;
+  grid-template-rows: 10% 40% 30% 20%; /* Row sizes based on your requirements */
+  height: 100vh; /* Make the grid cover the entire viewport height */
+  width: 100vw; /* Make the grid cover the entire viewport width */
+  position: absolute;
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+
+}
+
+/* Header styling */
+.header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.top-buttons {
+  display: flex;
+  margin-left: 13%;
+  
+}
+
+.top-right-buttons {
+  margin-left: auto; /* Push buttons to the right */
+}
+
+.link-button {
+  background-color: none; /* Button background color */
+  padding: 10px 20px; /* Button padding */
+  border: none;
+  cursor: pointer;
+  margin-right: 10px; /* Add margin between buttons */
+  /* Add other button styles as needed */
+}
+
+
+
+.email-input {
+  /* Add your styles for the email input container */
+  text-align: center; /* Center-align the content */
+  
+}
+
+.input-button-container {
+  display: flex; /* Display input and button side by side */
+  align-items: center; /* Vertically center items */
+  justify-content: center; /* Horizontally center items */
+  margin-top: 20px; /* Add spacing between the paragraph and the input/button */
+  
+}
+
+.input-button-container input[type="email"],
+.input-button-container button {
+  border-radius: 20px; /* Adjust the value as needed for the desired curvature */
+
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: 2px solid black;
+  outline: none; /* Remove the input/button outline on focus */
+  
+}
+
+
+
+/* Style the "Start Free Trial" button with a lilac color */
+.start-button {
+  background-color: plum; /* Replace 'lilac' with your desired color */
+  color: white; /* Text color for contrast */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  cursor: pointer;
+}
+
+/* Add more styles as needed for the email input and other elements */
+
+
+
+/* Advertisement container styling */
+.advertisement-container {
+  background-color: #f9f9f9; /* Background color for the advertisement container */
+  padding: 70px; /* Adjust padding as needed */
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+}
+
+/* app.css */
+
+.advertisement-container {
+  max-width: 100%;
+  text-align: center;
+  margin: 20px auto;
+}
+
+.advertisement-container img {
+  display: flex;
+  justify-content: center; /* Center the image horizontally */
+  align-items: center; /* Center the image vertically */
+ 
+  object-fit: cover; /* Maintain aspect ratio and cover the container */
+ 
+  transition: transform 0.3s ease-in-out;
+}
+
+.advertisement-container img:hover {
+  transform: scale(1.05);
+}
+.advertisement-container img {
+  max-width: 100%; /* Ensure the image does not exceed the container's width */
+  max-height: 100%; /* Ensure the image does not exceed the container's height */
+  object-fit: cover; /* Maintain aspect ratio and fit within the container */
+}
+
+
+/* Information section styling */
+.information-section {
+  background-color: #fff; /* Background color for the information section */
+  padding: 40px; /* Adjust padding as needed */
+}

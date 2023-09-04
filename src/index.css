@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* Header.css */
+header {
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-grow: 1;
+}
+
+.top-right-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+
+.link-button {
+  background: none;
+  border: none;
+  color: #333; /* Link color */
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0; /* Remove padding to make it look like a link */
+  transition: color 0.2s; /* Add a smooth color transition */
+}
+
+.link-button:hover {
+  text-decoration: none; /* Remove underline on hover */
+  color: #0056b3; /* Change color on hover (adjust as needed) */
+}
